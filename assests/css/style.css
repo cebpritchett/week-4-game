@@ -1,0 +1,12 @@
+.masthead {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: 300 px;
+    height: 80px;
+}
+
+.instructions {
+    padding: 10px 15px 10px 15px;
+    
+}

@@ -1,12 +1,64 @@
 .masthead {
-    background-color: blue;
+    background: url('grass.png'); color: white;
+    height: 80px;
+    font-size: 40px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+body {
+    background-image: url(sonic.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.instructions {
+    background: url('back-pattern.png'); 
+    color: white; 
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.number {
     color: white;
-    font-weight: bolder;
-    font-size: 300 px;
+    background: url('grass.png');
+    margin-bottom: 10px;
+    text-align: center;
+    height: 80px;
+    font-style: italic;
+    font-size: 30px;
+
+
+}
+
+.notice {
+    color: white;
+    background: url('grass.png');
     height: 80px;
 }
 
-.instructions {
-    padding: 10px 15px 10px 15px;
-    
+.score {
+    background: url('grass.png');
+    margin: 10px 0px 10px 0px;
+    color: white;
 }
+
+.button {
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    height: 100px;
+    width: 150px;
+    padding: 0px;
+}
+
+@media (min-width: 1200px) {
+.container { 
+    max-width: 900px;
+}
+}
+

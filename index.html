@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <header class="col-3 masthead">
+            <header class="col-5 masthead">
                 Get the Chaos Emeralds!
             </header>
         </div>
@@ -30,8 +30,43 @@
                 <br><br>
                 <p>Each time the game is started, the value of the emeralds will change.</p>
             </div>
-        </div>  
+        </div> 
+        <div class="row">
+            <div class=" col-2 number random">
+                <br>
+                <p id="randomNumber"></p>
+                <br>
+            </div>
+            <div class=" col-2 offset-1 notice">
+                <br>
+                <p class="wins">Wins:</p>
+                <br>
+                <p class="losses">Losses:</p>
+            </div>
+        </div>
+        <div class="row">
+            <input type ="image" class=" col-2 button one" style="height: 100px; width: 100px;" src="assests/images/green_crystal.jpeg"></input>
+            <input type ="image" class=" col-2 button two" style="height: 100px; width: 100px;" src="assests/images/red_crystal.jpg"></input>
+            <input type ="image" class=" col-2 button three" style="height: 100px; width: 100px;" src="assests/images/blue_crystal.jpg"></input>
+            <input type ="image" class=" col-2 button four" style="height: 100px; width: 100px;" src="assests/images/purple_crystal.jpg"></input>
+        </div>
+        <div class="row">
+            <div class=" col-2 score">
+                <p>Your Score: </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-2 number">
+                    <br>
+                    <p id="user"></p>
+                    <br>
+            </div>
+            <div class="col-2 offset-1">
+                <input id="resetButton" style="visibility: hidden; height: 50px; width: 100px" type="button" value="Play Again"> 
+            </div>
+        </div>
     </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
     <script type="text/javascript" src="assests/javascript/game.js"></script>  
 </body>
 </html>
